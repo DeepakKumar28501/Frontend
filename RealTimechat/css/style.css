@@ -1,0 +1,73 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+
+}
+body{
+    /* background: rgb(0,7,20); */
+    height: 100vh;
+    background: linear-gradient(15deg, rgba(0,7,20,1) 0%, rgba(113,110,91,1) 87%, rgba(84,86,81,1) 100%);
+}
+.container{
+    max-width: 955px;
+    background-color:rgba(11, 11, 10, 0.68);
+    margin: auto;
+    color: white;
+    height: 60vh;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 3px 10px 21px 2px  black;
+overflow-y: auto;
+margin-bottom: 20px;
+border: 2px solid black;
+}
+.message{
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 24%;
+    margin: 17px 2px;
+    color: black;
+    border-radius: 10px;
+
+}
+.left{
+    float: left;
+    clear: both;
+
+}
+.right{
+
+    float: right;
+    clear: both;
+}
+.inp-div{
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+#send-container{
+
+}
+#messageInp{
+    padding: 10px;
+    width: 91%;
+    height: 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+    width:6%;
+    background-color: green;
+    color: white;
+    
+    
+}
